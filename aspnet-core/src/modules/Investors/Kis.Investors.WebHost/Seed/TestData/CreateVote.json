@@ -1,0 +1,225 @@
+[
+  {
+    "theme": "Финансирование проекта",
+    "contextId": "d4a7fea6-419f-492d-a132-7f43d7adfac5",
+    "quorumPct": 55,
+    "decisionMakersPct": 55,
+    "isMultilieChoice": true,
+    "IsPublished": true,
+    "beginDateTime": "2019-10-24T14:13:36.458Z",
+    "endDateTime": "2019-10-24T14:13:36.458Z",
+    "noteSendingDateTime": "2019-10-24T14:13:36.458Z",
+    "options": [
+      {
+        "text": "За"
+      },
+      {
+        "text": "Против"
+      }
+    ]
+  },
+  {
+    "theme": "Назначение руководителя управляющей компании инвестиционного проекта",
+    "contextId": "d4a7fea6-419f-492d-a132-7f43d7adfac5",
+    "quorumPct": 55,
+    "decisionMakersPct": 55,
+    "isMultilieChoice": true,
+    "IsPublished": true,
+    "beginDateTime": "2019-10-24T14:13:36.458Z",
+    "endDateTime": "2019-10-24T14:13:36.458Z",
+    "noteSendingDateTime": "2019-10-24T14:13:36.458Z",
+    "options": [
+      {
+        "text": "Из числа сотрудников компаний инвесторов"
+      },
+      {
+        "text": "Из числа руководителей компаний инвесторов"
+      },
+      {
+        "text": "Объявление вакансии"
+      }
+    ]
+  },
+  {
+    "theme": "Пересмотр списка поставщиков",
+    "contextId": "d4a7fea6-419f-492d-a132-7f43d7adfac5",
+    "quorumPct": 55,
+    "decisionMakersPct": 55,
+    "isMultilieChoice": true,
+    "IsPublished": true,
+    "beginDateTime": "2019-10-24T14:13:36.458Z",
+    "endDateTime": "2019-10-24T14:13:36.458Z",
+    "noteSendingDateTime": "2019-10-24T14:13:36.458Z",
+    "options": [
+      {
+        "text": "Выбрать поставщиков из списка инвесторов"
+      },
+      {
+        "text": "Закупка у производителей в том же регионе, где реализуется проект"
+      },
+      {
+        "text": "Объявление тендера"
+      }
+    ]
+  },
+  {
+    "theme": "Перенос срока сдачи проекта",
+    "contextId": "d4a7fea6-419f-492d-a132-7f43d7adfac5",
+    "quorumPct": 55,
+    "decisionMakersPct": 55,
+    "isMultilieChoice": true,
+    "IsPublished": true,
+    "beginDateTime": "2019-10-24T14:13:36.458Z",
+    "endDateTime": "2019-10-24T14:13:36.458Z",
+    "noteSendingDateTime": "2019-10-24T14:13:36.458Z",
+    "options": [
+      {
+        "text": "На месяц"
+      },
+      {
+        "text": "На 2 месяца"
+      },
+      {
+        "text": "На 3 месяца"
+      },
+      {
+        "text": "На полгода"
+      }
+    ]
+  },
+  {
+    "theme": "Выбор банка для управляющей компании инвестиционного проекта",
+    "contextId": "d4a7fea6-419f-492d-a132-7f43d7adfac5",
+    "quorumPct": 55,
+    "decisionMakersPct": 55,
+    "isMultilieChoice": true,
+    "IsPublished": true,
+    "beginDateTime": "2019-10-24T14:13:36.458Z",
+    "endDateTime": "2019-10-24T14:13:36.458Z",
+    "noteSendingDateTime": "2019-10-24T14:13:36.458Z",
+    "options": [
+      {
+        "text": "ПАО Сбербанк"
+      },
+      {
+        "text": "АО Райффайзенбанк"
+      },
+      {
+        "text": "АО Тинькофф банк"
+      },
+      {
+        "text": "ПАО Банк ФК Открытие"
+      }
+    ]
+  },
+  {
+    "theme": "Выбор транспортной компании",
+    "contextId": "d4a7fea6-419f-492d-a132-7f43d7adfac5",
+    "quorumPct": 55,
+    "decisionMakersPct": 55,
+    "isMultilieChoice": true,
+    "IsPublished": true,
+    "beginDateTime": "2019-10-24T14:13:36.458Z",
+    "endDateTime": "2019-10-24T14:13:36.458Z",
+    "noteSendingDateTime": "2019-10-24T14:13:36.458Z",
+    "options": [
+      {
+        "text": "ООО Деловые линии"
+      },
+      {
+        "text": "ООО ПЭК"
+      },
+      {
+        "text": "ООО Байкал сервис"
+      },
+      {
+        "text": "ООО Логистические решение"
+      }
+    ]
+  },
+  {
+    "theme": "Выбор канала взаимодействия с заказчками",
+    "contextId": "d4a7fea6-419f-492d-a132-7f43d7adfac5",
+    "quorumPct": 55,
+    "decisionMakersPct": 55,
+    "isMultilieChoice": true,
+    "IsPublished": true,
+    "beginDateTime": "2019-10-24T14:13:36.458Z",
+    "endDateTime": "2019-10-24T14:13:36.458Z",
+    "noteSendingDateTime": "2019-10-24T14:13:36.458Z",
+    "options": [
+      {
+        "text": "Оптовый"
+      },
+      {
+        "text": "Розничный"
+      },
+      {
+        "text": "Через торговые площадки"
+      }
+    ]
+  },
+  {
+    "theme": "Поиск подрядчиков",
+    "contextId": "d4a7fea6-419f-492d-a132-7f43d7adfac5",
+    "quorumPct": 55,
+    "decisionMakersPct": 55,
+    "isMultilieChoice": true,
+    "IsPublished": true,
+    "beginDateTime": "2019-10-24T14:13:36.458Z",
+    "endDateTime": "2019-10-24T14:13:36.458Z",
+    "noteSendingDateTime": "2019-10-24T14:13:36.458Z",
+    "options": [
+      {
+        "text": "Объявление тендера"
+      },
+      {
+        "text": "Поиск в том же регионе где реализуется проект"
+      }
+    ]
+  },
+  {
+    "theme": "Оптимизация проекта",
+    "contextId": "d4a7fea6-419f-492d-a132-7f43d7adfac5",
+    "quorumPct": 55,
+    "decisionMakersPct": 55,
+    "isMultilieChoice": true,
+    "IsPublished": true,
+    "beginDateTime": "2019-10-24T14:13:36.458Z",
+    "endDateTime": "2019-10-24T14:13:36.458Z",
+    "noteSendingDateTime": "2019-10-24T14:13:36.458Z",
+    "options": [
+      {
+        "text": "Закрытие убыточных направлений"
+      },
+      {
+        "text": "Передача непрофильных видов деятельности на аутсорс"
+      },
+      {
+        "text": "Смена управляющего персонала"
+      },
+      {
+        "text": "Сокращение персонала"
+      }
+    ]
+  },
+  {
+    "theme": "Открытие нового филиала в регионе",
+    "contextId": "d4a7fea6-419f-492d-a132-7f43d7adfac5",
+    "quorumPct": 55,
+    "decisionMakersPct": 55,
+    "isMultilieChoice": true,
+    "IsPublished": true,
+    "beginDateTime": "2019-10-24T14:13:36.458Z",
+    "endDateTime": "2019-10-24T14:13:36.458Z",
+    "noteSendingDateTime": "2019-10-24T14:13:36.458Z",
+    "options": [
+      {
+        "text": "Открыть"
+      },
+      {
+        "text": "Не открывать"
+      }
+    ]
+  }
+]

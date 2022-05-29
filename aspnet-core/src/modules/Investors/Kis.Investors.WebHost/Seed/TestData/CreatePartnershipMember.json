@@ -1,0 +1,123 @@
+[
+
+  {
+    "name": "ООО Риал Групп",
+    "inn": "4191807946",
+    "ogrn": "5088131175292",
+    "address": "636213, г. Улеты, ул. Новорублевская 2-я, дом 3",
+    "headerFio": "Фёдоров Борис Владимирович",
+    "mail": "FedorovBoris372@ya.ru",
+    "phone": "8 (936) 911-82-20",
+    "login": "fedorov",
+    "contactorFio": "Соболева Диана Викторовна",
+    "isAllowSmsNotification": true
+  },
+  {
+    "name": "Страховой брокер Госавтополис",
+    "inn": "4480548352",
+    "ogrn": "5091712757813",
+    "address": "668314, г. Довольное, ул. Севастопольская Площадь, дом 56",
+    "headerFio": "Тюрина Валентина Даниловна ",
+    "mail": "TyurinaValentina276@ya.ru",
+    "phone": "8 (906) 890-94-73",
+    "login": "tyurina",
+    "contactorFio": "Миллер Ипатий Александрович",
+    "isAllowSmsNotification": true
+  },
+  {
+    "name": "\"ООО \"Европ-Ассистанс\"\"",
+    "inn": "3256821019",
+    "ogrn": "1148652272251",
+    "address": "142000, г. Чоя, ул. Курсовой Переулок, дом 67",
+    "headerFio": "Лукерин Елизар Антонович",
+    "mail": "zefslab@gmail.com",
+    "phone": "8 (955) 231-73-24",
+    "login": "m_zaplatin",
+    "contactorFio": "Пономарёва Ульяна Филипповна ",
+    "isAllowSmsNotification": true
+  },
+  {
+    "name": "\"ООО \"ИНПК\"\"",
+    "inn": "0837665434",
+    "ogrn": "5118915598104",
+    "address": "628530, г. Чикола, ул. Кадашевский Тупик, дом 61",
+    "headerFio": "Евгений Лямин",
+    "mail": "evglyamin@gmail.com",
+    "phone": "8 (954) 711-96-12",
+    "login": "votemember",
+    "contactorFio": "Евгений Лямин",
+    "isAllowSmsNotification": true
+  },
+  {
+    "name": "ЦВЕТЫ, оптовый склад. ИП Лебедева Н.Н.",
+    "inn": "6240111315",
+    "ogrn": "2020241739000",
+    "address": "346762, г. Черемисиново, ул. Белгородский Проезд, дом 49",
+    "headerFio": "Белозёрова Алиса Борисовна ",
+    "mail": "BelozerovaAlisa259@ya.ru",
+    "phone": "8 (951) 251-49-98",
+    "login": "belozerova",
+    "contactorFio": "Константинов Роберт Михайлович",
+    "isAllowSmsNotification": true
+  },
+  {
+    "name": "Кредитный брокер SL",
+    "inn": "6337881389",
+    "ogrn": "8065996667905",
+    "address": "111760, г. Старая Кулатка, ул. Магистральный Переулок, дом 52, квартира 69",
+    "headerFio": "Баранова Ариадна Артемовна",
+    "mail": "BaranovaAriadna341@ya.ru",
+    "phone": "8 (951) 934-50-98",
+    "login": "baranova",
+    "contactorFio": "Игнатьев Епифан Васильевич",
+    "isAllowSmsNotification": true
+  },
+  {
+    "name": "ООО Зеленый квадрат",
+    "inn": "3465918504",
+    "ogrn": "4122707565560",
+    "address": "429026, г. Усть-Уда, ул. Волховский Переулок, дом 1, квартира 99",
+    "headerFio": "Демьянова Инна Леонидовна",
+    "mail": "DemyanovaInna53@ya.ru",
+    "phone": "8 (941) 777-52-18",
+    "login": "inna",
+    "contactorFio": "Журавель Лаврентий Егорович",
+    "isAllowSmsNotification": true
+  },
+  {
+    "name": "\"ООО \"Премиум\"\"",
+    "inn": "3959803609",
+    "ogrn": "8106135130621",
+    "address": "400011, г. Кайбицы, ул. Кисловский Ниж. Переулок, дом 59, квартира 118",
+    "headerFio": "Байков Ким Вадимович",
+    "mail": "BaykovKim321@ya.ru",
+    "phone": "8 (968) 744-67-86",
+    "login": "kim",
+    "contactorFio": "Морозов Альберт Альбертович",
+    "isAllowSmsNotification": true
+  },
+  {
+    "name": "Бюро КБ, ООО",
+    "inn": "1968226320",
+    "ogrn": "9010876304782",
+    "address": "357700, г. Суворово, ул. Гамалеи, дом 79, квартира 41",
+    "headerFio": "Николаев Спартак Михайлович",
+    "mail": "NikolaevSpartak275@ya.ru",
+    "phone": "8 (968) 744-67-86",
+    "login": "spartak",
+    "contactorFio": "Рощин Кир Тарасович",
+    "isAllowSmsNotification": true
+  },
+  {
+    "name": "Personal Banker",
+    "inn": "3866513400",
+    "ogrn": "6023118184226",
+    "address": "303716, г. Калужское, ул. Бассейная, дом 15",
+    "headerFio": "Васильев Тихон Вячеславович",
+    "mail": "vitalij46@gmail.com",
+    "phone": "8 (968) 528-21-12",
+    "login": "m_berezin",
+    "contactorFio": "Баландин Боголюб Максимович",
+    "isAllowSmsNotification": true
+  }
+]

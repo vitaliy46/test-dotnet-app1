@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Constant\**" />
+    <EmbeddedResource Remove="Constant\**" />
+    <None Remove="Constant\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\General\Kis.General .Api\Kis.General.Api.csproj" />
+  </ItemGroup>
+
+</Project>

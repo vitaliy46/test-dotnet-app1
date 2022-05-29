@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Entity\Contractor.cs" />
+    <None Include="Entity\ProductCategory.cs" />
+    <None Include="Entity\ReceiptOrderType.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Staff\Kis.Staff.Api\Kis.Staff.Api.csproj" />
+  </ItemGroup>
+
+</Project>

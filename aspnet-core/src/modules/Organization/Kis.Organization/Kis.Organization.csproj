@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190307200919_AddOrganizationUnitUser.cs" />
+    <Compile Remove="Migrations\20190317171120_AddAuditing.cs" />
+    <Compile Remove="Migrations\20190325192837_AddOrganizationUnitMedia.cs" />
+    <Compile Remove="Migrations\20190325195711_DeleteUserIdFromOrganizationUnitUser.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\General\Kis.General\Kis.General.csproj" />
+    <ProjectReference Include="..\Kis.Organization.Api\Kis.Organization.Api.csproj" />
+  </ItemGroup>
+
+</Project>

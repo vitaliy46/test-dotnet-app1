@@ -1,0 +1,42 @@
+[
+  {
+    "state": {
+      "name": "Новый",
+      "description": "Новый"
+    },
+    "proposedId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0ef",
+    "order": 0
+  },
+  {
+    "state": {
+      "name": "В работе",
+      "description": "В работе"
+    },
+    "proposedId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0ee",
+    "order": 1
+  },
+  {
+    "state": {
+      "name": "Приостановлен",
+      "description": "Приостановлен"
+    },
+    "proposedId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0ed",
+    "order": 2
+  },
+  {
+    "state": {
+      "name": "Аудит",
+      "description": "Проводится аудит в компании"
+    },
+    "proposedId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0cf",
+    "order": 3
+  },
+  {
+    "state": {
+      "name": "Завершен",
+      "description": "Завершен"
+    },
+    "proposedId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0eb",
+    "order": 4
+  }
+]

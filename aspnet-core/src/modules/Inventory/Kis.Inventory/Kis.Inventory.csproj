@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Staff\Kis.Staff\Kis.Staff.csproj" />
+    <ProjectReference Include="..\Kis.Inventory.Api\Kis.Inventory.Api.csproj" />
+  </ItemGroup>
+
+</Project>

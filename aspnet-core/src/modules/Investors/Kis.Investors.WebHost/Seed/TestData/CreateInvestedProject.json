@@ -1,0 +1,580 @@
+[
+  {
+    "project": {
+      "title": "Система дистанционного голосования",
+      "description": "Система проведения и подготовки юридически значимого итога голосований в бизнесе",
+      "projectStateId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0ef"
+
+
+    },
+    "managingCompany": {
+      "name": "ООО Фаворит",
+      "parentId": "",
+      "header": {
+        "fullName": "Илья",
+        "contacts": [
+          {
+            "contact": {
+              "value": "23122122",
+              "contactType": 1
+            }
+          },
+          {
+            "contact": {
+              "value": "zefslab@gmail.com",
+              "contactType": 2
+            }
+          }
+        ],
+        "personUser": {
+          "user": {
+            "userName": "Ilia12",
+            "name": "Илья",
+            "surname": "Перепелица",
+            "emailAddress": "ilia12@gmail.com",
+            "isActive": true,
+            "roleNames": []
+          }
+        }
+      },
+      "organizationUnitAddress": {
+        "address": {
+          "addressType": 1,
+          "fullAddress": "Россия, Кемерово, ул. Пертопавловская, 16Б, 45"
+        }
+      },
+      "accountingDetails": {
+        "inn": "4534534534534",
+        "ogrn": "5634563"
+      }
+    }
+  },
+  {
+    "project": {
+      "title": "Поиск полезных ископаемых",
+      "description": "Рекультивация земель",
+      "projectStateId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0ee"
+    },
+    "managingCompany": {
+      "name": "ООО Престол",
+      "parentId": "",
+      "header": {
+        "fullName": "Антон",
+        "contacts": [
+          {
+            "contact": {
+              "value": "23122122",
+              "contactType": 1
+            }
+          },
+          {
+            "contact": {
+              "value": "zefslab@gmail.com",
+              "contactType": 2
+            }
+          }
+        ],
+        "personUser": {
+          "user": {
+            "userName": "Ilia11",
+            "name": "Антон",
+            "surname": "Отличник",
+            "emailAddress": "ilia11@gmail.com",
+            "isActive": true,
+            "roleNames": []
+          }
+        }
+      },
+      "organizationUnitAddress": {
+        "address": {
+          "addressType": 1,
+          "fullAddress": "Россия, Кемерово, ул. Пертопавловская, 16Б, 45"
+        }
+      },
+      "accountingDetails": {
+        "inn": "4534534534534",
+        "ogrn": "5634563"
+      }
+    }
+  },
+  {
+    "project": {
+      "title": "Создание производства сверхтонкой нити и изделий из неё",
+      "description": "В Приволжском ФО инвестором будет создано предприятие по изготовлению сверхтонкой нити и изделий из неё, не имеющее аналогов в России и Европе. Объём инвестиций в проект составит порядка 1,6 млрд.рублей, будет создано 120 рабочих мест.",
+      "projectStateId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0ef"
+    },
+    "managingCompany": {
+      "name": "БВБ Альянс",
+      "parentId": "",
+      "header": {
+        "fullName": "Алексей",
+        "contacts": [
+          {
+            "contact": {
+              "value": "51061204",
+              "contactType": 1
+            }
+          },
+          {
+            "contact": {
+              "value": "zefslab@gmail.com",
+              "contactType": 2
+            }
+          }
+        ],
+        "personUser": {
+          "user": {
+            "userName": "Aleksei12",
+            "name": "Алексей",
+            "surname": "Яковлев",
+            "emailAddress": "Aleksei12@gmail.com",
+            "isActive": true,
+            "roleNames": []
+          }
+        }
+      },
+      "organizationUnitAddress": {
+        "address": {
+          "addressType": 1,
+          "fullAddress": "Россия, Кемерово, ул. Пертопавловская, 16Б, 45"
+        }
+      },
+      "accountingDetails": {
+        "inn": "4534534534534",
+        "ogrn": "5634563"
+      }
+    }
+  },
+  {
+    "project": {
+      "title": "Модернизация комбината стройматериалов",
+      "description": "Комбинат стройматериалов на северо-западе намерен провести модернизацию производственных мощностей своего предприятия. Компания планирует вложить 120 млн рублей в модернизацию производства по выпуску керамического кирпича.",
+      "projectStateId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0ee"
+    },
+    "managingCompany": {
+      "name": "ООО НПО Альфа Кемикал ( НПО Альфа Кемикал)",
+      "parentId": "",
+      "header": {
+        "fullName": "Ираклий",
+        "contacts": [
+          {
+            "contact": {
+              "value": "73011966",
+              "contactType": 1
+            }
+          },
+          {
+            "contact": {
+              "value": "zefslab@gmail.com",
+              "contactType": 2
+            }
+          }
+        ],
+        "personUser": {
+          "user": {
+            "userName": "Iraklii13",
+            "name": "Ираклий",
+            "surname": "Агафонов",
+            "emailAddress": "Iraklii13@gmail.com",
+            "isActive": true,
+            "roleNames": []
+          }
+        }
+      },
+      "organizationUnitAddress": {
+        "address": {
+          "addressType": 1,
+          "fullAddress": "Россия, Кемерово, ул. Пертопавловская, 16Б, 45"
+        }
+      },
+      "accountingDetails": {
+        "inn": "4534534534534",
+        "ogrn": "5634563"
+      }
+    }
+  },
+  {
+    "project": {
+      "title": "Строительство свинокомплекса (3-я очередь)",
+      "description": "Одно из крупнейших предприятий Центрального ФО по производству свинины увеличивает мощности. Компания, построит третью очередь свинокомплексов, в которую войдут три свинокомплекса, племенная ферма и расширение комбикормового завода. Стоимость инвестпроекта составит около 12 миллиардов рублей. После строительства предприятие будет производить около 180 тысяч тонн мяса. Возрастут и мощности комбикормового завода — до 550 тысяч тонн в год.",
+      "projectStateId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0ed"
+    },
+    "managingCompany": {
+      "name": "Мир Сплава",
+      "parentId": "",
+      "header": {
+        "fullName": "Лаврентий",
+        "contacts": [
+          {
+            "contact": {
+              "value": "26106218",
+              "contactType": 1
+            }
+          },
+          {
+            "contact": {
+              "value": "zefslab@gmail.com",
+              "contactType": 2
+            }
+          }
+        ],
+        "personUser": {
+          "user": {
+            "userName": "Lavrentii14",
+            "name": "Лаврентий",
+            "surname": "Назаров",
+            "emailAddress": "Lavrentii14@gmail.com",
+            "isActive": true,
+            "roleNames": []
+          }
+        }
+      },
+      "organizationUnitAddress": {
+        "address": {
+          "addressType": 1,
+          "fullAddress": "Россия, Кемерово, ул. Пертопавловская, 16Б, 45"
+        }
+      },
+      "accountingDetails": {
+        "inn": "4534534534534",
+        "ogrn": "5634563"
+      }
+    }
+  },
+  {
+    "project": {
+      "title": "Строительство логистического центра",
+      "description": "Крупная федеральная компания построить логистический центр в Приволжском ФО. Площадь комплекса составит  20-25 тыс. квадратных метров. Общая сумма инвестиций в проект, по предварительным данным, составит порядка 1,5 млрд рублей. Планируется, что на базе центра будет создано более 300 рабочих мест.",
+      "projectStateId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0cf"
+    },
+    "managingCompany": {
+      "name": "АСБЕСТСТРОЙ",
+      "parentId": "",
+      "header": {
+        "fullName": "Рудольф",
+        "contacts": [
+          {
+            "contact": {
+              "value": "45341557",
+              "contactType": 1
+            }
+          },
+          {
+            "contact": {
+              "value": "zefslab@gmail.com",
+              "contactType": 2
+            }
+          }
+        ],
+        "personUser": {
+          "user": {
+            "userName": "Rudolf15",
+            "name": "Рудольф",
+            "surname": "Воронцов",
+            "emailAddress": "Rudolf15@gmail.com",
+            "isActive": true,
+            "roleNames": []
+          }
+        }
+      },
+      "organizationUnitAddress": {
+        "address": {
+          "addressType": 1,
+          "fullAddress": "Россия, Кемерово, ул. Пертопавловская, 16Б, 45"
+        }
+      },
+      "accountingDetails": {
+        "inn": "4534534534534",
+        "ogrn": "5634563"
+      }
+    }
+  },
+  {
+    "project": {
+      "title": "Строительство экотехнопарка",
+      "description": "На Северо-запада в ближайшие три года построят экотехнопарк. Планируется, что сумма инвестиций превысит 750 млн рублей. Новый экотехнопарк будет включать мусоросортировочный комплекс и три мусороперегрузочные станции. Для реализации проекта между компанией-инвестором и властями региона будет подписано концессионное соглашение.",
+      "projectStateId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0eb"
+    },
+    "managingCompany": {
+      "name": "\"Дом Крепежных Материалов \"Крепика\" Крепимаркет N 1. , ООО\"",
+      "parentId": "",
+      "header": {
+        "fullName": "Трофим",
+        "contacts": [
+          {
+            "contact": {
+              "value": "78145447",
+              "contactType": 1
+            }
+          },
+          {
+            "contact": {
+              "value": "zefslab@gmail.com",
+              "contactType": 2
+            }
+          }
+        ],
+        "personUser": {
+          "user": {
+            "userName": "Trofim16",
+            "name": "Трофим",
+            "surname": "Трофимов",
+            "emailAddress": "Trofim16@gmail.com",
+            "isActive": true,
+            "roleNames": []
+          }
+        }
+      },
+      "organizationUnitAddress": {
+        "address": {
+          "addressType": 1,
+          "fullAddress": "Россия, Кемерово, ул. Пертопавловская, 16Б, 45"
+        }
+      },
+      "accountingDetails": {
+        "inn": "4534534534534",
+        "ogrn": "5634563"
+      }
+    }
+  },
+  {
+    "project": {
+      "title": "Строительство биологических очистных сооружений в аэропорту",
+      "description": "Международный аэропорт в Приволжском ФО построит биологические очистные сооружения мощностью от 900 до 1 тыс. куб. метров в сутки. На проект будет потрачено 116,8 млн рублей. Сооружения позволят осуществлять безопасный отвод и очистку стоков на взлетно-посадочных полосах, что поможет обеспечить безопасность полетов.",
+      "projectStateId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0ef"
+    },
+    "managingCompany": {
+      "name": "\"Регионгаздеталь производственное предприятие ( ПП \"Регионгаздеталь\")\"",
+      "parentId": "",
+      "header": {
+        "fullName": "Рудольф",
+        "contacts": [
+          {
+            "contact": {
+              "value": "44366077",
+              "contactType": 1
+            }
+          },
+          {
+            "contact": {
+              "value": "zefslab@gmail.com",
+              "contactType": 2
+            }
+          }
+        ],
+        "personUser": {
+          "user": {
+            "userName": "Rudolf17",
+            "name": "Рудольф",
+            "surname": "Кулагин",
+            "emailAddress": "Rudolf17@gmail.com",
+            "isActive": true,
+            "roleNames": []
+          }
+        }
+      },
+      "organizationUnitAddress": {
+        "address": {
+          "addressType": 1,
+          "fullAddress": "Россия, Кемерово, ул. Пертопавловская, 16Б, 45"
+        }
+      },
+      "accountingDetails": {
+        "inn": "4534534534534",
+        "ogrn": "5634563"
+      }
+    }
+  },
+  {
+    "project": {
+      "title": "Строительство фермы по выращиванию мидий и устриц",
+      "description": "Инвестор построит ферму по выращиванию мидий и устриц в Южном ФО. На данный момент инвестиции в проект составляют около 120 млн рублей. Запуск устричной и мидийной фермы состоится в несколько этапов. Сейчас завершается первый из них, - идёт строительство инженерных коммуникаций и административного корпуса. На следующем этапе, во втором квартале 2019 года, состоится «выход в открытое море»: начнётся размещение оборудования для выращивания устриц и мидий.",
+      "projectStateId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0ee"
+    },
+    "managingCompany": {
+      "name": "МетТрансТерминал",
+      "parentId": "",
+      "header": {
+        "fullName": "Всеволод",
+        "contacts": [
+          {
+            "contact": {
+              "value": "08512057",
+              "contactType": 1
+            }
+          },
+          {
+            "contact": {
+              "value": "zefslab@gmail.com",
+              "contactType": 2
+            }
+          }
+        ],
+        "personUser": {
+          "user": {
+            "userName": "Vsevolod18",
+            "name": "Всеволод",
+            "surname": "Овчинников",
+            "emailAddress": "Vsevolod18@gmail.com",
+            "isActive": true,
+            "roleNames": []
+          }
+        }
+      },
+      "organizationUnitAddress": {
+        "address": {
+          "addressType": 1,
+          "fullAddress": "Россия, Кемерово, ул. Пертопавловская, 16Б, 45"
+        }
+      },
+      "accountingDetails": {
+        "inn": "4534534534534",
+        "ogrn": "5634563"
+      }
+    }
+  },
+  {
+    "project": {
+      "title": "Строительство бизнес-центра",
+      "description": "Компания-инвестор приобрела земельный участок площадью 0,6 гектар для строительства бизнес-центра. По предварительным данным на данном участке девелопер запланировал строительство бизнес-цента класса А общей площадью 34000 м2. Начало строительных работ запланировано на 3 квартал 2019 года, а окончание строительства – в 2022 году. Инвестиции в строительство данного проекта составят порядка 3,8 млрд. рублей.",
+      "projectStateId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0ed"
+    },
+    "managingCompany": {
+      "name": "МетПромКо",
+      "parentId": "",
+      "header": {
+        "fullName": "Вилли",
+        "contacts": [
+          {
+            "contact": {
+              "value": "02979894",
+              "contactType": 1
+            }
+          },
+          {
+            "contact": {
+              "value": "zefslab@gmail.com",
+              "contactType": 2
+            }
+          }
+        ],
+        "personUser": {
+          "user": {
+            "userName": "Villi19",
+            "name": "Вилли",
+            "surname": "Тарасов",
+            "emailAddress": "Villi19@gmail.com",
+            "isActive": true,
+            "roleNames": []
+          }
+        }
+      },
+      "organizationUnitAddress": {
+        "address": {
+          "addressType": 1,
+          "fullAddress": "Россия, Кемерово, ул. Пертопавловская, 16Б, 45"
+        }
+      },
+      "accountingDetails": {
+        "inn": "4534534534534",
+        "ogrn": "5634563"
+      }
+    }
+  },
+  {
+    "project": {
+      "title": "Создание производства по переработке отходов нефтепродуктов по технологии пиролиза",
+      "description": "Инвестор планирует вложить 110 млн рублей в создание предприятия по переработке отходов нефтепродуктов по технологии пиролиза. В итоге инвесторы планируют получать технический углерод и смолу пиролиза, которые впоследствии можно использовать в энергетике.",
+      "projectStateId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0ef"
+    },
+    "managingCompany": {
+      "name": "УралКомплектЭнергоМаш",
+      "parentId": "",
+      "header": {
+        "fullName": "Игнат",
+        "contacts": [
+          {
+            "contact": {
+              "value": "49103539",
+              "contactType": 1
+            }
+          },
+          {
+            "contact": {
+              "value": "zefslab@gmail.com",
+              "contactType": 2
+            }
+          }
+        ],
+        "personUser": {
+          "user": {
+            "userName": "Ignat20",
+            "name": "Игнат",
+            "surname": "Колобов",
+            "emailAddress": "Ignat20@gmail.com",
+            "isActive": true,
+            "roleNames": []
+          }
+        }
+      },
+      "organizationUnitAddress": {
+        "address": {
+          "addressType": 1,
+          "fullAddress": "Россия, Кемерово, ул. Пертопавловская, 16Б, 45"
+        }
+      },
+      "accountingDetails": {
+        "inn": "4534534534534",
+        "ogrn": "5634563"
+      }
+    }
+  },
+  {
+    "project": {
+      "title": "Строительство ветроэлектростанций",
+      "description": "В Южном ФО инвестор построит 25 ветроэлектростанций. Стоимость инвестиционного проекта  - 970 млн. рублей. Сейчас инвестор занимается подбором земельного массива, где во втором квартале 2019 года планируется начать строительство ветряных электростанций мощностью до 15 МВт",
+      "projectStateId": "ff9dfcd4-8172-4d6a-bb64-b425c2f2f0ee"
+    },
+    "managingCompany": {
+      "name": "Компания «КОНТЕЙНЕР-177»",
+      "parentId": "",
+      "header": {
+        "fullName": "Мстислав",
+        "contacts": [
+          {
+            "contact": {
+              "value": "47008850",
+              "contactType": 1
+            }
+          },
+          {
+            "contact": {
+              "value": "zefslab@gmail.com",
+              "contactType": 2
+            }
+          }
+        ],
+        "personUser": {
+          "user": {
+            "userName": "Mstislav21",
+            "name": "Мстислав",
+            "surname": "Киселёв",
+            "emailAddress": "Mstislav21@gmail.com",
+            "isActive": true,
+            "roleNames": []
+          }
+        }
+      },
+      "organizationUnitAddress": {
+        "address": {
+          "addressType": 1,
+          "fullAddress": "Россия, Кемерово, ул. Пертопавловская, 16Б, 45"
+        }
+      },
+      "accountingDetails": {
+        "inn": "4534534534534",
+        "ogrn": "5634563"
+      }
+    }
+  }
+]

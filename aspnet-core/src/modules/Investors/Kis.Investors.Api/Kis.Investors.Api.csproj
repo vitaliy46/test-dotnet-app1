@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Organization\Kis.Organization.Api\Kis.Organization.Api.csproj" />
+    <ProjectReference Include="..\..\TaskTrecker\Kis.TaskTrecker.Api\Kis.TaskTrecker.Api.csproj" />
+    <ProjectReference Include="..\..\Voting\Kis.Voting.Api\Kis.Voting.Api.csproj" />
+  </ItemGroup>
+
+</Project>

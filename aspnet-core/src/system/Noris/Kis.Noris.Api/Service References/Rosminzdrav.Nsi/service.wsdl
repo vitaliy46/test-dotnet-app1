@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="urn:service" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="service" targetNamespace="urn:service" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://nsi.rosminzdrav.ru:80/wsdl/SOAP-server.v2.php?xsd=1" namespace="urn:service" />
+    </xsd:schema>
+  </types>
+  <message name="getServerTime">
+    <part name="parameters" element="tns:getServerTime" />
+  </message>
+  <message name="getServerTimeResponse">
+    <part name="parameters" element="tns:getServerTimeResponse" />
+  </message>
+  <message name="getRefbookList">
+    <part name="parameters" element="tns:getRefbookList" />
+  </message>
+  <message name="getRefbookListResponse">
+    <part name="parameters" element="tns:getRefbookListResponse" />
+  </message>
+  <message name="getVersionList">
+    <part name="parameters" element="tns:getVersionList" />
+  </message>
+  <message name="getVersionListResponse">
+    <part name="parameters" element="tns:getVersionListResponse" />
+  </message>
+  <message name="getRefbook">
+    <part name="parameters" element="tns:getRefbook" />
+  </message>
+  <message name="getRefbookResponse">
+    <part name="parameters" element="tns:getRefbookResponse" />
+  </message>
+  <message name="getRefbookParts">
+    <part name="parameters" element="tns:getRefbookParts" />
+  </message>
+  <message name="getRefbookPartsResponse">
+    <part name="parameters" element="tns:getRefbookPartsResponse" />
+  </message>
+  <message name="getRefbookPartial">
+    <part name="parameters" element="tns:getRefbookPartial" />
+  </message>
+  <message name="getRefbookPartialResponse">
+    <part name="parameters" element="tns:getRefbookPartialResponse" />
+  </message>
+  <message name="getRefbookUpdate">
+    <part name="parameters" element="tns:getRefbookUpdate" />
+  </message>
+  <message name="getRefbookUpdateResponse">
+    <part name="parameters" element="tns:getRefbookUpdateResponse" />
+  </message>
+  <message name="getRefbookStructure">
+    <part name="parameters" element="tns:getRefbookStructure" />
+  </message>
+  <message name="getRefbookStructureResponse">
+    <part name="parameters" element="tns:getRefbookStructureResponse" />
+  </message>
+  <message name="getRecordHistory">
+    <part name="parameters" element="tns:getRecordHistory" />
+  </message>
+  <message name="getRecordHistoryResponse">
+    <part name="parameters" element="tns:getRecordHistoryResponse" />
+  </message>
+  <portType name="service">
+    <operation name="getServerTime">
+      <input wsam:Action="urn:getServerTime" message="tns:getServerTime" />
+      <output wsam:Action="urn:service:service:getServerTimeResponse" message="tns:getServerTimeResponse" />
+    </operation>
+    <operation name="getRefbookList">
+      <input wsam:Action="urn:getRefbookList" message="tns:getRefbookList" />
+      <output wsam:Action="urn:service:service:getRefbookListResponse" message="tns:getRefbookListResponse" />
+    </operation>
+    <operation name="getVersionList">
+      <input wsam:Action="urn:getVersionList" message="tns:getVersionList" />
+      <output wsam:Action="urn:service:service:getVersionListResponse" message="tns:getVersionListResponse" />
+    </operation>
+    <operation name="getRefbook">
+      <input wsam:Action="urn:getRefbook" message="tns:getRefbook" />
+      <output wsam:Action="urn:service:service:getRefbookResponse" message="tns:getRefbookResponse" />
+    </operation>
+    <operation name="getRefbookParts">
+      <input wsam:Action="urn:getRefbookParts" message="tns:getRefbookParts" />
+      <output wsam:Action="urn:service:service:getRefbookPartsResponse" message="tns:getRefbookPartsResponse" />
+    </operation>
+    <operation name="getRefbookPartial">
+      <input wsam:Action="urn:getRefbookPartial" message="tns:getRefbookPartial" />
+      <output wsam:Action="urn:service:service:getRefbookPartialResponse" message="tns:getRefbookPartialResponse" />
+    </operation>
+    <operation name="getRefbookUpdate">
+      <input wsam:Action="urn:getRefbookUpdate" message="tns:getRefbookUpdate" />
+      <output wsam:Action="urn:service:service:getRefbookUpdateResponse" message="tns:getRefbookUpdateResponse" />
+    </operation>
+    <operation name="getRefbookStructure">
+      <input wsam:Action="urn:getRefbookStructure" message="tns:getRefbookStructure" />
+      <output wsam:Action="urn:service:service:getRefbookStructureResponse" message="tns:getRefbookStructureResponse" />
+    </operation>
+    <operation name="getRecordHistory">
+      <input wsam:Action="urn:getRecordHistory" message="tns:getRecordHistory" />
+      <output wsam:Action="urn:service:service:getRecordHistoryResponse" message="tns:getRecordHistoryResponse" />
+    </operation>
+  </portType>
+  <binding name="SOAPServPortBinding" type="tns:service">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="getServerTime">
+      <soap:operation soapAction="urn:getServerTime" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRefbookList">
+      <soap:operation soapAction="urn:getRefbookList" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getVersionList">
+      <soap:operation soapAction="urn:getVersionList" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRefbook">
+      <soap:operation soapAction="urn:getRefbook" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRefbookParts">
+      <soap:operation soapAction="urn:getRefbookParts" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRefbookPartial">
+      <soap:operation soapAction="urn:getRefbookPartial" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRefbookUpdate">
+      <soap:operation soapAction="urn:getRefbookUpdate" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRefbookStructure">
+      <soap:operation soapAction="urn:getRefbookStructure" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRecordHistory">
+      <soap:operation soapAction="urn:getRecordHistory" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="service">
+    <port name="SOAPServPort" binding="tns:SOAPServPortBinding">
+      <soap:address location="http://nsi.rosminzdrav.ru:80/wsdl/SOAP-server.v2.php" />
+    </port>
+  </service>
+</definitions>

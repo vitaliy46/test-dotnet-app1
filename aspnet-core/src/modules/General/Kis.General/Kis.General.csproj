@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <None Remove="Migrations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Migrations\20190301165012_Initial.cs" />
+    <Compile Include="Migrations\20190301165012_Initial.Designer.cs" />
+    <Compile Include="Migrations\20190308060426_AddPersonUser.cs" />
+    <Compile Include="Migrations\20190308060426_AddPersonUser.Designer.cs" />
+    <Compile Include="Migrations\20190309053748_DeleteContactType.cs" />
+    <Compile Include="Migrations\20190309053748_DeleteContactType.Designer.cs" />
+    <Compile Include="Migrations\20190317165634_AddAuditing.cs" />
+    <Compile Include="Migrations\20190317165634_AddAuditing.Designer.cs" />
+    <Compile Include="Migrations\20190323170440_FixOrderFildName.cs" />
+    <Compile Include="Migrations\20190323170440_FixOrderFildName.Designer.cs" />
+    <Compile Include="Migrations\20190325073301_AddSystemNameToMediaType.cs" />
+    <Compile Include="Migrations\20190325073301_AddSystemNameToMediaType.Designer.cs" />
+    <Compile Include="Migrations\20190328145805_AddFildsInPersonAdnAddress.cs" />
+    <Compile Include="Migrations\20190328145805_AddFildsInPersonAdnAddress.Designer.cs" />
+    <Compile Include="Migrations\20190329163853_NameNotRequired.cs" />
+    <Compile Include="Migrations\20190329163853_NameNotRequired.Designer.cs" />
+    <Compile Include="Migrations\20190329164421_SurnameNotRequired.cs" />
+    <Compile Include="Migrations\20190329164421_SurnameNotRequired.Designer.cs" />
+    <Compile Include="Migrations\20190417140818_DeleteOrdetInState.cs" />
+    <Compile Include="Migrations\20190417140818_DeleteOrdetInState.Designer.cs" />
+    <Compile Include="Migrations\20190511055832_DeleteMediaTypeAddLabel.cs" />
+    <Compile Include="Migrations\20190511055832_DeleteMediaTypeAddLabel.Designer.cs" />
+    <Compile Include="Migrations\20190518192210_AddConfirmationPassword.cs" />
+    <Compile Include="Migrations\20190518192210_AddConfirmationPassword.Designer.cs" />
+    <Compile Include="Migrations\20190523173900_RenameConfirmationPasswordToOneTimePassword.cs" />
+    <Compile Include="Migrations\20190523173900_RenameConfirmationPasswordToOneTimePassword.Designer.cs" />
+    <Compile Include="Migrations\GeneralDbContextModelSnapshot.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SendPulse.SDK" Version="1.0.0" />
+    <PackageReference Include="TLSharp" Version="0.1.0.386" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Kis.EntityFrameworkCore\Kis.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\Voting\Kis.Voting.Api\Kis.Voting.Api.csproj" />
+    <ProjectReference Include="..\Kis.General .Api\Kis.General.Api.csproj" />
+  </ItemGroup>
+
+</Project>

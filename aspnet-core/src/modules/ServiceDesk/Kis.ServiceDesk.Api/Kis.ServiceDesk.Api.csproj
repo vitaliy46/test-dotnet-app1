@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Dal\Repositories\" />
+    <Folder Include="Entity\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\TaskTrecker\Kis.TaskTrecker.Api\Kis.TaskTrecker.Api.csproj" />
+  </ItemGroup>
+
+</Project>

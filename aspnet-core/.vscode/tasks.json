@@ -1,0 +1,57 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/modules/Investors/Kis.Investors.WebHost/Kis.Investors.WebHost.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "update database (Investors)",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "ef", "database", "update",
+                "-p", "${workspaceFolder}/src/modules/Investors/Kis.Investors/Kis.Investors.csproj",
+                "-s", "${workspaceFolder}/src/modules/Investors/Kis.Investors.WebHost/Kis.Investors.WebHost.csproj"
+            ],
+        },
+        {
+            "label": "update database (General)",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "ef", "database", "update",
+                "-p", "${workspaceFolder}/src/modules/General/Kis.General/Kis.General.csproj",
+                "-s", "${workspaceFolder}/src/modules/Investors/Kis.Investors.WebHost/Kis.Investors.WebHost.csproj"
+            ],
+        },
+        {
+            "label": "update database (Kis.EntityFrameworkCore)",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                //"ef", "migrations", "script", "-i",
+                "ef", "database", "update",
+                "-p", "${workspaceFolder}/src/Kis.EntityFrameworkCore/Kis.EntityFrameworkCore.csproj",
+                "-s", "${workspaceFolder}/src/modules/Investors/Kis.Investors.WebHost/Kis.Investors.WebHost.csproj"
+            ],
+        },
+        {
+            "label": "update database (Organization)",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                //"ef", "migrations", "script", "-i",
+                "ef", "database", "update",
+                "-p", "${workspaceFolder}/src/modules/Organization/Kis.Organization/Kis.Organization.csproj",
+                "-s", "${workspaceFolder}/src/modules/Investors/Kis.Investors.WebHost/Kis.Investors.WebHost.csproj"
+            ],
+        },
+    ]
+}

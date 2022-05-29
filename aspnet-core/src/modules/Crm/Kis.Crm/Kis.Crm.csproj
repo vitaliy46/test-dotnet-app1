@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Organization\Kis.Organization\Kis.Organization.csproj" />
+    <ProjectReference Include="..\..\TaskTrecker\Kis.TaskTrecker\Kis.TaskTrecker.csproj" />
+    <ProjectReference Include="..\Kis.Crm.Api\Kis.Crm.Api.csproj" />
+  </ItemGroup>
+
+</Project>

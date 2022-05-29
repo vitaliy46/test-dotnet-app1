@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\ProjectController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\General\Kis.Base.Web\Kis.Base.Web\Kis.Base.Web.csproj" />
+    <ProjectReference Include="..\..\Kis.Voting\Kis.Voting.csproj" />
+  </ItemGroup>
+
+</Project>

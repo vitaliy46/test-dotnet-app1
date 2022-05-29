@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Constant\**" />
+    <EmbeddedResource Remove="Constant\**" />
+    <None Remove="Constant\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.AutoMapper" Version="3.5.0" />
+    <PackageReference Include="Abp.ZeroCore" Version="3.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Organization\Kis.Organization.Api\Kis.Organization.Api.csproj" />
+  </ItemGroup>
+
+</Project>

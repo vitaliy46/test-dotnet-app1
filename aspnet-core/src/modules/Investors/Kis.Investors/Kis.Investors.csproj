@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Service\Fakes\**" />
+    <EmbeddedResource Remove="Service\Fakes\**" />
+    <None Remove="Service\Fakes\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Dal\Repositories\Fake\FakeInvestorRepository.cs" />
+    <Compile Remove="Migrations\20190221150519_Test.cs" />
+    <Compile Remove="Migrations\20190304181953_MoveFKToMemberContactor.cs" />
+    <Compile Remove="Migrations\20190317162435_AddAuditing.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Organization\Kis.Organization\Kis.Organization.csproj" />
+    <ProjectReference Include="..\..\TaskTrecker\Kis.TaskTrecker\Kis.TaskTrecker.csproj" />
+    <ProjectReference Include="..\Kis.Investors.Api\Kis.Investors.Api.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dal\Repositories\Fake\" />
+  </ItemGroup>
+
+</Project>

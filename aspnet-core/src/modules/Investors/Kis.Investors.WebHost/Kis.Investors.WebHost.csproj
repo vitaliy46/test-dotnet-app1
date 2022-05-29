@@ -1,0 +1,82 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <AssemblyName>Kis.Investors.WebHost</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>Kis.Web.Host</PackageId>
+    <UserSecretsId>AbpCompanyName-It2g-56C2EF2F-ABD6-4EFC-AAF2-2E81C34E8FB1</UserSecretsId>
+    <Configurations>Debug;Release;Test</Configurations>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DefineConstants>DEBUG;TRACE;FEATURE_SIGNALR_ASPNETCORE</DefineConstants>
+    <StartupObject>Kis.Investors.WebHost.Startup.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="Dockerfile">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+    <None Update="wwwroot\**\*">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Bogus.Text" Version="26.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0">
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Castle.LoggingFacility.MsLogging" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.0.1" />
+    <PackageReference Include="Hangfire.PostgreSql" Version="1.4.8.2" />
+    <PackageReference Include="System.Net.NameResolution" Version="4.3.0" />
+    
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\General\Kis.General.Web\Kis.General.Web.csproj" />
+    <ProjectReference Include="..\..\Organization\Kis.Organization.Web\Kis.Organization.Web.csproj" />
+    <ProjectReference Include="..\..\System\Kis.Crypto\Kis.Crypto.csproj" />
+    <ProjectReference Include="..\..\TaskTrecker\Kis.TaskTrecker.Web\Kis.TaskTrecker.Web.csproj" />
+    <ProjectReference Include="..\..\Voting\Kis.Voting.Web\Kis.Voting.Web\Kis.Voting.Web.csproj" />
+    <ProjectReference Include="..\Kis.Investors.Web\Kis.Investors.Web.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Logs\" />
+    <Folder Include="Temp\" />
+    <Folder Include="SignedFiles\" />
+    <Folder Include="wwwroot\UploadFiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Seed\TestData\CreateVote.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Seed\TestData\CreateState.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Seed\TestData\CreateProjectState.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Seed\TestData\CreateInvestedProject.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Seed\TestData\CreatePartnershipMember.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

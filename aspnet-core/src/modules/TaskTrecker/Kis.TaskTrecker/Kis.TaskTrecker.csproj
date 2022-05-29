@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190317170138_AddAuditing.cs" />
+    <Compile Remove="Migrations\20190317171737_AddAuditing.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\General\Kis.General\Kis.General.csproj" />
+    <ProjectReference Include="..\..\Voting\Kis.Voting.Api\Kis.Voting.Api.csproj" />
+    <ProjectReference Include="..\Kis.TaskTrecker.Api\Kis.TaskTrecker.Api.csproj" />
+  </ItemGroup>
+
+</Project>

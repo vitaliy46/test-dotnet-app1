@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="urn:service" targetNamespace="urn:service" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="getRecordHistory" type="tns:getRecordHistory" />
+  <xs:element name="getRecordHistoryResponse" type="tns:getRecordHistoryResponse" />
+  <xs:element name="getRefbook" type="tns:getRefbook" />
+  <xs:element name="getRefbookList" type="tns:getRefbookList" />
+  <xs:element name="getRefbookListResponse" type="tns:getRefbookListResponse" />
+  <xs:element name="getRefbookPartial" type="tns:getRefbookPartial" />
+  <xs:element name="getRefbookPartialResponse" type="tns:getRefbookPartialResponse" />
+  <xs:element name="getRefbookParts" type="tns:getRefbookParts" />
+  <xs:element name="getRefbookPartsResponse" type="tns:getRefbookPartsResponse" />
+  <xs:element name="getRefbookResponse" type="tns:getRefbookResponse" />
+  <xs:element name="getRefbookStructure" type="tns:getRefbookStructure" />
+  <xs:element name="getRefbookStructureResponse" type="tns:getRefbookStructureResponse" />
+  <xs:element name="getRefbookUpdate" type="tns:getRefbookUpdate" />
+  <xs:element name="getRefbookUpdateResponse" type="tns:getRefbookUpdateResponse" />
+  <xs:element name="getServerTime" type="tns:getServerTime" />
+  <xs:element name="getServerTimeResponse" type="tns:getServerTimeResponse" />
+  <xs:element name="getVersionList" type="tns:getVersionList" />
+  <xs:element name="getVersionListResponse" type="tns:getVersionListResponse" />
+  <xs:complexType name="getVersionList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userKey5" type="xs:string" />
+      <xs:element minOccurs="0" name="refbookCode4" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getVersionListResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="getVersionListReturn" type="tns:ArrayOfMap" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfMap">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="item" nillable="true" type="tns:Map" />
+    </xs:sequence>
+    <xs:attribute name="href" type="xs:string" />
+    <xs:attribute name="id" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Map">
+    <xs:all>
+      <xs:element name="children" type="tns:ArrayOfMap" />
+      <xs:element name="key" type="xs:string" />
+      <xs:element name="value" type="xs:string" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="getRefbookUpdate">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userKey4" type="xs:string" />
+      <xs:element minOccurs="0" name="refbookCode3" type="xs:string" />
+      <xs:element minOccurs="0" name="userVersion" type="xs:string" />
+      <xs:element minOccurs="0" name="newVersion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRefbookUpdateResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="getRefbookUpdateReturn" type="tns:ArrayOfMap" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRefbookList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userKey1" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRefbookListResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="getRefbookListReturn" type="tns:ArrayOfMap" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRecordHistory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userKey6" type="xs:string" />
+      <xs:element minOccurs="0" name="refbookCode5" type="xs:string" />
+      <xs:element minOccurs="0" name="rowIdent" type="xs:integer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRecordHistoryResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="getRecordHistoryReturn" type="tns:ArrayOfMap" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRefbookPartial">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userKey2" type="xs:string" />
+      <xs:element minOccurs="0" name="refbookCode1" type="xs:string" />
+      <xs:element minOccurs="0" name="version1" type="xs:string" />
+      <xs:element minOccurs="0" name="partNumber" type="xs:integer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRefbookPartialResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="getRefbookPartialReturn" type="tns:ArrayOfMap" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getServerTime">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getServerTimeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="getServerTimeReturn" type="xs:integer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRefbook">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userKey" type="xs:string" />
+      <xs:element minOccurs="0" name="refbookCode" type="xs:string" />
+      <xs:element minOccurs="0" name="version" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRefbookResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="getRefbookReturn" type="tns:ArrayOfMap" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRefbookParts">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userKey3" type="xs:string" />
+      <xs:element minOccurs="0" name="refbookCode2" type="xs:string" />
+      <xs:element minOccurs="0" name="version2" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRefbookPartsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="getRefbookPartsReturn" type="tns:ArrayOfMap" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRefbookStructure">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userKey7" type="xs:string" />
+      <xs:element minOccurs="0" name="refbookCode6" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRefbookStructureResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="getRefbookStructureReturn" type="tns:ArrayOfMap" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

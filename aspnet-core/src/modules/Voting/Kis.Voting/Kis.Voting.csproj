@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\Crud\Fakes\**" />
+    <EmbeddedResource Remove="Services\Crud\Fakes\**" />
+    <None Remove="Services\Crud\Fakes\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Dal\Repositories\ProjectRepository.cs" />
+    <Compile Remove="Migrations\20190305074939_FixVoteReport.cs" />
+    <Compile Remove="Migrations\20190317172218_AddAuditing.cs" />
+    <Compile Remove="Migrations\20190318023644_test.cs" />
+    <Compile Remove="Migrations\20190410210615_AddTextResultInVoteResult.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlRenderer.Core" Version="1.5.0.6" />
+    <PackageReference Include="HtmlRenderer.PdfSharp" Version="1.5.0.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="PDFsharp" Version="1.32.3057" />
+    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\General\Kis.General\Kis.General.csproj" />
+    <ProjectReference Include="..\..\System\Kis.Crypto .Api\Kis.Crypto.Api.csproj" />
+    <ProjectReference Include="..\Kis.Voting.Api\Kis.Voting.Api.csproj" />
+  </ItemGroup>
+
+</Project>

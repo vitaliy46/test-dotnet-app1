@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kis.Base.Web\Kis.Base.Web\Kis.Base.Web.csproj" />
+    <ProjectReference Include="..\Kis.General\Kis.General.csproj" />
+  </ItemGroup>
+
+</Project>

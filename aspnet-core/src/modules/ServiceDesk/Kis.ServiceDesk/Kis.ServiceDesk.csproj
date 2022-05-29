@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\TaskTrecker\Kis.TaskTrecker\Kis.TaskTrecker.csproj" />
+    <ProjectReference Include="..\Kis.ServiceDesk.Api\Kis.ServiceDesk.Api.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dal\Mapping\" />
+  </ItemGroup>
+
+</Project>
